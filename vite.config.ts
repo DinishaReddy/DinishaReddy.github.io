@@ -14,6 +14,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // For GitHub Pages root domain (DinishaReddy.github.io)
-  base: "/",
+  base: "/",  // 👈 keep this for GitHub Pages root
 }));
